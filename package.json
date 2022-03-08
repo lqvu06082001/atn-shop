@@ -1,5 +1,5 @@
 {
-  "name": "Truong",
+  "name": "Vu",
   "version": "1.0.0",
   "description": "ATN Shop",
   "main": "index.js",
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0703086663/TruongATN.git"
+    "url": "git+https://github.com/lqvu06082001/atn-shop.git"
   },
   "keywords": ["atn","shop","product","project","greenwich"
   ],
-  "author": "Truong",
+  "author": "Vu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/0703086663/TruongATN/issues"
+    "url": "https://github.com/lqvu06082001/atn-shop/issues"
   },
-  "homepage": "https://github.com/0703086663/TruongATN#readme",
+  "homepage": "https://github.com/lqvu06082001/atn-shop#readme",
   "dependencies": {
     "express-handlebars": "^6.0.2",
     "mongoose": "^6.1.7",
