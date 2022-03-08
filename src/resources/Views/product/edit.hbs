@@ -1,0 +1,45 @@
+ 
+<div class="mt-4 ml-4">
+  {{!-- enctype="multipart/form-data" --}}
+<form action="/product/{{product._id}}?_method=PUT" method="post">
+<h1 class="text-center"><b>{{product.ProductName}}</b></h1>
+  <div class="form-group">
+        <label for="ProductName">Product Name</label>
+        <input type="text" class="form-control" value="{{product.ProductName}}" id="ProductName" name="ProductName" placeholder="Enter ProductName"> 
+      </div>
+      <div class="form-group">
+        <label for="ProductCode">Product Code</label>
+        <input type="text" class="form-control" value="{{product.ProductCode}}" id="ProductCode" name="ProductCode" placeholder="Enter ProductCode"> 
+      </div>
+      <div class="form-group">
+        <label for="Information">Information</label>
+        <textarea class="form-control" id="Information" name="Information" >{{product.Information}}</textarea>
+      </div>
+      <div class="form-group">
+        <label for="Price">Price</label>
+        <input type="text" class="form-control" value="{{product.Price}}" id="Price" name="Price" placeholder="Enter Price"> 
+      </div>
+      <div class="form-group">
+        <label for="Unit">Unit</label>
+        <input type="text" class="form-control" value="{{product.Unit}}" id="Unit" name="Unit" placeholder="Enter Unit"> 
+      </div>
+      <div class="form-group">
+        <label for="ImgLink">ImgLink</label>
+        <input type="text" class="form-control" value="{{product.ImgLink}}" id="ImgLink" name="ImgLink" placeholder="Enter ImgLink"> 
+      </div>
+      <div class="form-group">
+        <label for="createdAt">Create at</label>
+        <input type="text" class="form-control" value="{{moment product.createdAt format="HH:mm on DD-MM-YYYY"}}" disabled id="createdAt" name="createdAt" placeholder="Enter createdAt"> 
+      </div>
+      <div class="form-group">
+        <label for="updatedAt">Updated at</label>
+        <input type="text" class="form-control" value="{{moment product.updatedAt format="HH:mm on DD-MM-YYYY"}}" disabled id="updatedAt" name="updatedAt" placeholder="Enter updatedAt"> 
+      </div> 
+      <div class="form-group">
+        <label for="slug">slug</label>
+        <input type="text" class="form-control" value="{{product.slug}}" disabled id="slug" name="slug" placeholder="Enter slug"> 
+      </div>
+  <input type="submit" value="Edit">
+</form>
+</div>
+

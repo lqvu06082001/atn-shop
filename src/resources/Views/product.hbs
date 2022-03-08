@@ -1,0 +1,38 @@
+<h1 class="text-center">Product </h1>
+<div class="mt-4">
+    <ul class="row">
+        <div class="col-3">
+            <ul class="list-group list__group-mobile">
+                <h4>Product List</h4>
+                {{#each product}}
+                    <a class="list-group-item list-group-item-action list-hover" href="/product/{{this.slug}}"><li>{{this.ProductName}}</li></a>
+                {{/each}}
+            </ul>
+        </div>
+
+   <div class="col-9 row col-modify">
+            {{#each product}}
+            <div class="col-sm-4 col-md-4 col-lg-4 col-mobile">
+                
+            <div class="card product-card">
+                <a class="card-content" href="/product/{{this.slug}}">
+                    <img class="card-img-top img-mobile" src="{{this.ImgLink}}" alt="{{this.ProductName}}">
+                </a>
+                <div class="card-body body-new">
+                    <a href="/product/{{this.slug}}">
+                        <h5 class="card-title title-mobile">{{this.ProductName}}</h5>
+                    </a>
+                    <p class="card-text text-new ">{{this.Information}}</p>
+                  
+                        <div class="product-footer-button">
+                            <a  href="/product/{{this.slug}}"> 
+                            <button>See more</button>
+                            </a> 
+                        </div>   
+                </div>  
+            </div>
+        </div>
+        {{/each}}
+        </div>
+    </ul>
+</div>

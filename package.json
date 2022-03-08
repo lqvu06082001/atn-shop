@@ -1,0 +1,38 @@
+{
+  "name": "Truong",
+  "version": "1.0.0",
+  "description": "ATN Shop",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0703086663/TruongATN.git"
+  },
+  "keywords": ["atn","shop","product","project","greenwich"
+  ],
+  "author": "Truong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0703086663/TruongATN/issues"
+  },
+  "homepage": "https://github.com/0703086663/TruongATN#readme",
+  "dependencies": {
+    "express-handlebars": "^6.0.2",
+    "mongoose": "^6.1.7",
+    "concurrently": "^7.0.0",
+    "currently": "^0.0.8",
+    "express": "^4.17.3",
+    "handlebars-helpers": "^0.10.0",
+    "method-override": "^3.0.0",
+    "mongodb": "^4.4.0",
+    "mongoose-delete": "^0.5.4",
+    "mongoose-slug-generator": "^1.0.4",
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+  }
+}

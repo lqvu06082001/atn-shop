@@ -1,0 +1,35 @@
+{{!-- <!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="/contact" class="w3-bar-item w3-button"><i class="fab fa-facebook"></i></a>
+  <a href="/contact" class="w3-bar-item w3-button"><i class="fab fa-instagram"></i></a>
+  <a href="/contact" class="w3-bar-item w3-button"><i class="fab fa-snapchat"></i></a>
+  <a href="/contact" class="w3-bar-item w3-button"><i class="fab fa-flickr"></i></a>
+  <a href="/contact" class="w3-bar-item w3-button"><i class="fab fa-twitter"></i></a>
+  <a href="/contact" class="w3-bar-item w3-button"><i class="fab fa-linkedin"></i></a>
+  <a href="/product" class="w3-bar-item w3-button w3-right">Product</a>
+  <a href="/product/create" class="w3-bar-item w3-button w3-right">Add Product</a>
+  <a href="/product/manage" class="w3-bar-item w3-button w3-right">Manage Product</a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fas fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-20 w3-white">
+    <a href="/"><h1 class="w3-xxxlarge"><b>HOANG ATN STOP</b></h1></a>
+    <h6>Welcome to the shop of <span class="w3-tag">ATN's toys</span></h6>
+  </header> --}}
+  <!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <hr>
+  <a href="/product" onclick="w3_close()" class="w3-bar-item w3-button">Product</a>
+  <a href="/product/create" onclick="w3_close()" class="w3-bar-item w3-button">Add Product</a>
+  <a href="/product/manage" onclick="w3_close()" class="w3-bar-item w3-button">Manage Product</a>
+  <a href="/contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+</nav>
+
+
